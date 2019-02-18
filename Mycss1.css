@@ -1,0 +1,61 @@
+.btn {
+  display:inline-block;
+  height:10%;
+  width:28%;
+  margin-top:10%;
+  margin-left:10%;
+  margin-right:10%;
+  margin-bottom:4%;
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 2%;
+  font-size: 1.5rem;
+  cursor: pointer;
+  text-align: center;
+
+}
+body{
+  background-color: rgb(240, 240, 240);
+}
+
+.row > .border > .border-light{
+  box-shadow: 5px 10px 8px #888888;
+}
+
+h4{
+  font-weight: 400;
+}
+
+h5{
+  font-weight: 300;
+}
+
+.progress :after{
+  margin: 0;
+  width: 10%;
+}
+
+.progress.blue2 .progress-left .progress-bar{
+    animation: loading-4 0.5s linear forwards 1.8s;
+}
+
+.progress.blue2 .progress-bar{
+    border-color: LightGreen;
+}
+
+.progress.blue3 .progress-left .progress-bar{
+    animation: loading-3 1.5s linear forwards 1.8s;
+}
+
+.progress.blue3 .progress-bar{
+    border-color: rgb(91, 187, 47);
+}
+
+.progress.blue1 .progress-left .progress-bar{
+    animation: loading-4 0.5s linear forwards 1.8s;
+}
+
+.progress.blue1 .progress-bar{
+    border-color: rgb(234, 221, 83);
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form One</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style1.css">
+</head>
+
+<body>
+    <div class="registration-form">
+        <form id="formoid" method="post">
+            <h3 class="text-center">Create your account</h3>
+            
+            <div class="form-group">
+                <input class="form-control item" type="text" name="name" required="" maxlength="25" minlength="1" pattern="^[a-zA-Z ]*$" id="name" placeholder="Name">
+            </div>
+            <div class="form-group">
+                    <input class="form-control item" type="text" name="routeno" required="" maxlength="5" minlength="4" pattern="^[0-9]*$" id="routeno" placeholder="Route No.">
+            </div>
+            <div class="form-group">
+                <input class="form-control item" type="email" name="email" required="" id="email" placeholder="Email">
+            </div>
+            <div class="form-group">
+                <input class="form-control item" type="password" name="password" required="" minlength="6" id="password" placeholder="Password">
+            </div>
+            <div class="form-group">
+                <button class="btn btn-primary btn-block create-account" type="submit">Create Account</button>
+            </div>
+            
+        </form>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>
